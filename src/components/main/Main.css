@@ -1,0 +1,58 @@
+body {
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+.root {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.btn {
+  padding: 0.5rem;
+}
+.input {
+  padding: 0.5rem;
+}
+.spanm{
+    font-size: 4rem;
+}
+.sonuc{
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 1450px) {
+    .spanm{
+        font-size: 3rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1190px) {
+    .spanm{
+        font-size: 2rem;
+    }
+    .sonuc{
+        font-size: 2rem;
+    }
+
+
+}
+@media screen and (max-width: 890px) {
+    .spanm{
+        font-size: 1rem;
+    }
+    .sonuc{
+        font-size: 1rem;
+    }
+
+
+}
